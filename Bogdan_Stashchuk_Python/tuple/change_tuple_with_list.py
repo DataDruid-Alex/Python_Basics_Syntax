@@ -1,0 +1,8 @@
+posts_ids = (324, 243)
+posts_ids_list = list(posts_ids)
+print(posts_ids, type(posts_ids))
+print(posts_ids_list, type(posts_ids_list))
+posts_ids_list.append(423)
+print(posts_ids_list, type(posts_ids_list))
+posts_ids_tuple = tuple(posts_ids_list)
+print(posts_ids_tuple, type(posts_ids_tuple))

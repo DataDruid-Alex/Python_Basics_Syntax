@@ -1,0 +1,15 @@
+import random
+print(random.random())
+print(random.randint(1, 10))
+print(random.choice('This is text for random symbol'))
+print(random.choice([1, 3, 'sdf', True, False, 'Guan']))
+print(random.choices([1, 3, 'sdf', True, "battle", False, 'Guan'], k=2))
+my_list = [1, 2, 33, -8, 'dfd', 'sfd', [1, 'd'], True, False, 'id', False, 0]
+print(my_list)
+random.shuffle(my_list)
+print(my_list)
+random.shuffle(my_list)
+print(my_list)
+print()
+print(random.choices('0123456789', k=8))
+print(''.join(random.choices('ABCDEF0123456789', k=8)))

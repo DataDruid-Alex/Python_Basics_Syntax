@@ -1,0 +1,22 @@
+import re
+my_string = "My name is Oleksandr"
+res = re.search("Oleksandr", my_string)
+res2 = re.search("O.......r", my_string)
+res3 = re.search("O.......r$", my_string)
+res4 = re.search("^M.*is", my_string)
+
+print(res)
+print(type(res))
+print()
+print(res2)
+print(type(res))
+print()
+print(res3)
+print()
+print(res4)
+print(r'Oleksandr\n$kildmero')
+print('Oleksandr\n$kildmero')
+print()
+print(res.span())
+print(res.start())
+print(res.end())

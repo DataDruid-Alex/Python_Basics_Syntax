@@ -1,0 +1,16 @@
+import time
+print(time)
+print(time.time())
+print("Now is", time.ctime())
+print(time.ctime(9999999999))
+print()
+
+print("     Game with time        ")
+start_time = time.time()
+# time.sleep(5.397)
+my_list = list(range(100_000_000))
+print(my_list[10000])
+end_time = time.time()
+print("Start time is", start_time)
+print("End time is", end_time)
+print("Total duration of the operation:", end_time-start_time)

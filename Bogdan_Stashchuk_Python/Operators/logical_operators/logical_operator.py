@@ -1,0 +1,13 @@
+# not, or, and
+print(5 or 8)
+print(99 or 9)
+print(5 and 10)
+print(8 and 4)
+print(5 and not 8)
+print(5 or not 8)
+print(200 or not 2)
+print(200 or not 1)
+print(200 or not 0)
+print(200 and not 0)
+print(200 and not 1)
+print(200 and not 10)
